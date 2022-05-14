@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style-position: inside;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.topo {
+  background-color: #142032;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  margin-bottom: -17px;
+}
+
+.topo a {
+  color: white;
+}
+
+.logo {
+  max-width: 120px;
+  padding-left: 15px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  background-color: #FF5500;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  max-width: 80%;
+  margin: auto;
+}
+
+.titulo {
+  font-size: 20px;
+  color: #37352F;
+}
+
+hr {
+  border-top: 1.5px solid #37352F;
+}
+
+.semana {
+  background-color: #FF5500;
+  color: white;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.container_aulas a {
+  color:black;
+  transition: 300ms;
+}
+
+.container_aulas a:hover {
+  color: #FF5500;
+  text-decoration: underline;
+}
+
+.sem_resumo {
+  color: #FF8BD9;
+}
+
+.container_mentorias a {
+  color:black;
+  transition: 300ms;
+}
+
+.container_mentorias a:hover {
+  color: #FF5500;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #FF5500;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.logo_footer {
+  max-width: 108px;
+}
